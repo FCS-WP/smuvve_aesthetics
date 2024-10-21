@@ -1,0 +1,425 @@
+/* WPBakery Page Builder styles
+----------------------------------------------------------------- */
+.vc_row.vc_parallax[class*="scheme_"] .vc_parallax-inner:before {
+	content: ' ';
+	position:absolute;
+	z-index:1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.vc_row .wpb_column:not(.vc_col-sm-12) blockquote {
+	margin: 0;
+}
+
+/* Row and Columns */
+.vc_col-sm-12 {
+	min-height:0;
+}
+.vc_row[data-vc-full-width]:not(.vc_parallax) {
+	overflow: visible;
+}
+.vc_row.vc_row-o-full-height {
+    min-height: 100vh !important;
+}
+.vc_row.vc_parallax[class*="scheme_"] .vc_parallax-inner:before {
+	content: ' ';
+	position:absolute;
+	z-index:1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.vc_row .wpb_column:not(.vc_col-sm-12) blockquote {
+	margin: 0;
+}
+.vc_col-has-fill > .vc_column-inner,
+.vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner,
+.vc_row-has-fill + .vc_row > .vc_column_container > .vc_column-inner,
+.vc_row-has-fill + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+.vc_row-has-fill + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner,
+.vc_row-has-fill > .vc_column_container > .vc_column-inner,
+.vc_row-has-fill > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+.vc_row-has-fill > .vc_vc_column_inner > .vc_column_container > .vc_column-inner {
+	padding-top: 0 !important;
+}
+
+
+/* Panels */
+.vc_tta.vc_general .vc_tta-panels .vc_tta-panel-body {
+	padding:2.4em 0;
+}
+.vc_tta.vc_general .vc_tta-panels .vc_tta-panel-body p {
+	margin-bottom: 0;
+}
+.vc_tta.vc_general .vc_tta-panels .vc_tta-panel-body p + p {
+	margin-top: 1em;
+}
+
+/* Accordion */
+.vc_tta.vc_tta-accordion .vc_tta-panel-body,
+.vc_tta.vc_tta-accordion .vc_tta-panel-heading {
+}
+.vc_tta.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading, .vc_tta.vc_tta-style-classic .vc_tta-panel:not(:last-child) .vc_tta-panel-heading, .vc_tta.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-heading, .vc_tta.vc_tta-style-modern .vc_tta-panel:not(:last-child) .vc_tta-panel-heading {
+	margin-bottom: 1.6em;
+}
+.vc_tta.vc_tta-style-classic .vc_tta-panel.vc_active + .vc_tta-panel .vc_tta-panel-heading, .vc_tta.vc_tta-style-classic .vc_tta-panel:not(:first-child) .vc_tta-panel-heading {
+	margin-top:1.6em;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel-title {
+	font-size: 1em;
+	line-height: 1.3em;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel-title .vc_tta-title-text {
+	font-size: 1.333em;
+	font-weight: 400;
+	line-height: 1.1;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel-heading .vc_tta-controls-icon-position-left.vc_tta-panel-title > a {
+	padding-left: 4.2em;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel-heading .vc_tta-controls-icon-position-right.vc_tta-panel-title > a {
+	padding-right: 4.2em;
+	padding-left:0;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel-heading .vc_tta-controls-icon-position-left.vc_tta-panel-title > a > .vc_tta-controls-icon {
+	left:0;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel-heading .vc_tta-controls-icon-position-right.vc_tta-panel-title > a > .vc_tta-controls-icon {
+	right: -3.8em;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel-heading .vc_tta-controls-icon {
+	width: 3.6em;
+	height: 3.6em;
+	-webkit-transition: all ease .3s;
+	-ms-transition: all ease .3s;
+	transition: all ease .3s;
+}
+.vc_tta.vc_tta-accordion.vc_tta-shape-rounded .vc_tta-panel-heading .vc_tta-controls-icon {
+	border-radius: 5px;
+}
+.vc_tta.vc_tta-accordion.vc_tta-shape-round .vc_tta-panel-heading .vc_tta-controls-icon {
+	border-radius: 50%;
+}
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon {
+	left: 0;
+}
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-right .vc_tta-controls-icon {
+	right: 0;
+}
+.vc_tta.vc_tta-accordion .vc_tta-panel + .vc_tta-panel {
+	margin-top: 0.3em;
+}
+
+/* Tabs */
+.vc_tta.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a {
+	background-color:transparent;
+	border: none;
+	padding: 0.6em 1.8em 0.3em; 
+}
+.vc_tta.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab + .vc_tta-tab {
+	margin-left: 1.1em;
+}
+
+
+/* Separator */
+.vc_separator {
+	margin-top: 3.3em;
+	margin-bottom: 6.1em !important;
+}
+
+/* Progress bar */
+.vc_progress_bar.vc_progress_bar_narrow .vc_single_bar {
+	box-shadow:none;
+	border-radius:0;
+	height: 7px;
+	margin-top: 2.65em;
+	margin-right: 3.9em;
+}
+.vc_progress_bar.vc_progress_bar_narrow .vc_single_bar .vc_bar {
+	height: 7px;
+	border-radius:0;
+}
+.vc_progress_bar.vc_progress_bar_narrow .vc_single_bar + .vc_single_bar {
+	margin-top: 4.7em;
+}
+.vc_progress_bar.vc_progress_bar_narrow .vc_single_bar .vc_label {
+	position:absolute;
+	font-size: 1.333em;
+	font-weight: 400;
+	font-style:normal;
+	top: -1.625em;
+	padding:0;
+	line-height:1.5em;
+	text-shadow:none;
+	display:block;
+	width:100%;
+}
+.vc_progress_bar.vc_progress_bar_narrow .vc_single_bar .vc_label .vc_label_units {
+	position: absolute;
+	z-index: 1;
+	top: 1.2em;
+	right: -2.9em;
+	font-size: 1em;
+}
+
+.vc_progress_bar[class*="vc_custom"] {
+	overflow: hidden;
+	padding: 0 1.4em 0 4.65em;
+	margin-top: -1.15rem;
+}
+.vc_progress_bar.vc_progress_bar_narrow[class*="vc_custom"] .vc_single_bar {
+	margin-top: 6.1em;
+	height: 10px;
+}
+.vc_progress_bar.vc_progress_bar_narrow[class*="vc_custom"] .vc_single_bar .vc_bar {
+	height: 10px;
+}
+.vc_progress_bar.vc_progress_bar_narrow[class*="vc_custom"] .vc_single_bar + .vc_single_bar {
+	margin-top: 4.5em;
+}
+.vc_progress_bar[class*="vc_custom"] .vc_single_bar:last-child {
+	margin-bottom: 4.8em;
+}
+.vc_progress_bar.vc_progress_bar_narrow[class*="vc_custom"] .vc_single_bar .vc_label .vc_label_units {
+	top: 0;
+	right: -0.6em;
+}
+
+/* Message Box */
+.vc_message_box p {
+	font-size: 1.333em;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: -0.4px;
+}
+.vc_message_box.vc_do_message,
+.vc_message_box {
+	padding: 3.2em 4.8em 3.4em 6.25em;
+	border: 0!important;
+	margin-bottom: 2em;
+	-webkit-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+}
+.vc_message_box-solid-icon {
+	padding-left: 7em;
+}
+.vc_message_box-icon {
+	width: 4.8em;
+}
+.vc_message_box .vc_message_box-icon > * {
+	font-size: 1.6em;
+}
+.vc_message_box-solid-icon .vc_message_box-icon {
+	width: 5em;
+	font-weight: 400;
+	font-size: 1em;
+}
+.vc_message_box:not(.vc_message_box-solid-icon) .vc_message_box-icon > * {
+	left:auto;
+	right:0.2em;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.vc_message_box-outline .vc_message_box-icon i  {												color: inherit; }
+.vc_color-juicy_pink.vc_message_box-outline, .vc_color-juicy_pink.vc_message_box-solid-icon {	color: #f4524d; }
+.vc_color-orange.vc_message_box-outline, .vc_color-orange.vc_message_box-solid-icon { 			color: #e39a31; }
+.vc_color-vista_blue.vc_message_box-outline .vc_message_box-icon, .vc_color-vista_blue.vc_message_box-solid-icon .vc_message_box-icon i,
+.vc_color-vista_blue.vc_message_box-outline, .vc_color-vista_blue.vc_message_box-solid-icon {	color: #9dbf00; }
+.vc_color-vista_blue.vc_message_box-outline, .vc_color-vista_blue.vc_message_box-solid-icon {	border-color: #9dbf00; }
+.vc_color-vista_blue.vc_message_box-solid-icon .vc_message_box-icon i {							background-color: #9dbf00; }
+.vc_color-warning.vc_message_box {
+	background-color: #f3e992;
+	color: #73727d;
+}
+.vc_message_box .vc_message_box-icon,
+.vc_message_box .vc_message_box-icon i {
+	color: rgba(255, 255, 255, 0.6);
+}
+.vc_color-success.vc_message_box {
+	color: #ffffff;
+	background-color: #03aa98;
+}
+.vc_color-peacoc.vc_message_box {
+	color: #ffffff;
+	background-color: #8ba7b2;
+}
+.vc_color-green.vc_message_box {
+	color: #ffffff;
+	background-color: #87ba91;
+}
+.vc_color-grey.vc_message_box .vc_message_box-icon,
+.vc_color-grey.vc_message_box-solid .vc_message_box-icon {
+	color: #3a3a3a;
+}
+.vc_message_box_closeable {
+	position:relative;
+}
+.vc_color-grey.vc_message_box-solid .vc_message_box-icon {
+	display: none;
+}
+.vc_color-grey.vc_message_box-solid {
+	padding-left: 3.5em;
+}
+.vc_color-grey.vc_message_box-solid {
+	color: #464c50;
+	background-color: #f8f4ea;
+}
+.vc_color-info.vc_message_box {
+	background-color: #259ecb;
+	color: #ffffff;
+}
+.vc_color-grey.vc_message_box {
+	color: #73727d;
+	border-color: #d2d2d2;
+	background-color: #f1f4f5;
+}
+.vc_message_box_closeable.vc_color-grey .vc_message_box-icon i {
+	color: #d0d3d4;
+}
+.vc_message_box_closeable.vc_color-grey:after {
+	background-color: #d0d3d4;
+}
+.vc_message_box_closeable:after {
+	content: '\e8ac';
+	font-family:'fontello';
+	font-size: 1.5em;
+	font-weight:400;
+	padding:0;
+	color: inherit;
+	cursor:pointer;
+	position:absolute;
+	top: 50%;
+	right: 1.6em;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+	width: 1.511em;
+	height: 1.511em;
+	line-height: 1.6;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #ffffff;
+	text-align: center;
+}
+
+/* Text block after slider or video */
+.wpb_text_column[class*="scheme_"] {
+	padding: 2rem 2.4rem;
+}
+.wpb_text_column h1:first-child,
+.wpb_text_column h2:first-child,
+.wpb_text_column h3:first-child,
+.wpb_text_column h4:first-child,
+.wpb_text_column h5:first-child,
+.wpb_text_column h6:first-child {
+	margin-top:0;
+}
+
+/* Google maps */
+.wpb_gmaps_widget .wpb_wrapper {
+	padding:0;
+}
+
+
+.wpb-js-composer .vc_tta.vc_tta-accordion .vc_tta-panel .vc_tta-panel-body {
+	border: 0;
+	margin-right: 4.9em;
+	padding: 0 2.1em 1.75em;
+}
+.wpb-js-composer .vc_tta.vc_tta-accordion .vc_tta-panel .vc_tta-panel-heading {
+	padding: 1em 2em 0.7em;
+	margin-right: 4.9em;
+	border: 0;
+}
+.wpb-js-composer .vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-chevron::before {
+	left: 1.5em!important;
+	right: 1.5em!important;
+	top: 1.5em!important;
+	bottom: 1.5em!important;
+}
+
+.wpb-js-composer  .vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-chevron::before{
+	transform: rotate(45deg) translate(-15%,-15%);
+}
+
+.wpb-js-composer .vc_tta .vc_active .vc_tta-controls-icon.vc_tta-controls-icon-chevron::before {
+	-webkit-transform: rotate(225deg) translate(-15%,-15%);
+	-ms-transform: rotate(225deg) translate(-15%,-15%);
+	transform: rotate(225deg) translate(-15%,-15%);
+}
+
+.vc_tta-style-classic .vc_tta-tab .vc_tta-title-text {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.wpb-js-composer .vc_tta.vc_tta-style-classic .vc_tta-panel-body, .wpb-js-composer .vc_tta.vc_tta-style-classic .vc_tta-panel-heading, .wpb-js-composer .vc_tta.vc_tta-style-classic .vc_tta-tab>a {
+	border-width: 0!important;
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab>a {
+	padding: 1.1em 1.8em 1.05em!important;
+}
+.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs .vc_tta-panel-body {
+	padding: 1.55em 0!important;
+}
+.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs .vc_tta-panel-body img {
+	margin-bottom: 1.25em;
+}
+.wpb-js-composer .vc_tta-tabs.vc_tta-has-pagination:not(.vc_tta-tabs-position-bottom) {
+	padding-bottom: 20px!important;
+}
+.wpb-js-composer .vc_tta-tabs.vc_tta-has-pagination .vc_pagination {
+	top: auto!important;
+	bottom: -50px;
+	-webkit-transform: none!important;
+	-ms-transform: none!important;
+	transform: none!important;
+	z-index: 1000;
+}
+.vc_general.vc_pagination {
+	counter-reset: num;
+}
+.vc_general.vc_pagination .vc_pagination-trigger:before {
+	counter-increment: num;
+	content: counter(num);
+	display: block!important;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	font-weight: 500;
+	line-height: 36px;
+	font-size: 14px;
+}
+.vc_general.vc_pagination .vc_pagination-trigger {
+	width: 36px!important;
+	height: 36px!important;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+body.wpb-js-composer .vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-plus::before {
+    width: 1.9em;
+    height: 1.9em;
+    left: 25%;
+    right: 0;
+    top: 75%;	
+}
+
+body.wpb-js-composer .vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-plus::after {
+    width: 1.9em;
+    height: 1.9em;
+    left: 75%;
+    bottom: 0;
+    top: 25%;
+}

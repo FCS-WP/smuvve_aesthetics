@@ -1,0 +1,370 @@
+.cq-cardcarousel {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  place-items: center start;
+  min-height: 400px;
+  height: auto;
+  width: calc(100% - 36px);
+  grid-row-gap: 140px;
+}
+
+.cq-cardcarousel-container {
+  position: relative;
+  width: min(800px, 100%);  /*min-height: 100vh;*/
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.cq-cardcarousel-list {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  perspective: 1400px;
+  transform-style: preserve-3d;
+}
+
+.cq-cardcarousel-itemcontainer {
+  background: white;
+  position: relative;
+}
+
+.cq-cardcarousel-avatar {
+  background-color: #EFEFEF;
+  background-position: center center;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-size: cover;
+  z-index: 2;
+  line-height: 100%;
+}
+
+.cq-cardcarousel-40 .cq-cardcarousel-avatar {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.cq-cardcarousel-60 .cq-cardcarousel-avatar {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+.cq-cardcarousel-80 .cq-cardcarousel-avatar {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.cq-cardcarousel-100 .cq-cardcarousel-avatar {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.cq-cardcarousel-120 .cq-cardcarousel-avatar {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+}
+
+
+.cq-cardcarousel-100 .cq-cardcarousel-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.cq-cardcarousel-120 .cq-cardcarousel-avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.cq-cardcarousel-160 .cq-cardcarousel-avatar {
+  width: 160px;
+  height: 160px;
+}
+
+.cq-cardcarousel-40 .cq-cardcarousel-avatar .cq-cardcarousel-icon {
+  font-size: 20px;
+  line-height: 40px;
+}
+.cq-cardcarousel-60 .cq-cardcarousel-avatar .cq-cardcarousel-icon {
+  font-size: 36px;
+  line-height: 60px;
+}
+.cq-cardcarousel-80 .cq-cardcarousel-avatar .cq-cardcarousel-icon {
+  font-size: 40px;
+  line-height: 80px;
+}
+.cq-cardcarousel-100 .cq-cardcarousel-avatar .cq-cardcarousel-icon {
+  font-size: 44px;
+  line-height: 100px;
+}
+.cq-cardcarousel-120 .cq-cardcarousel-avatar .cq-cardcarousel-icon {
+  font-size: 48px;
+  line-height: 120px;
+}
+
+.cq-cardcarousel-avatar .cq-cardcarousel-icon {
+  color: #FFF;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 2.4em;
+  line-height: 80px;
+  padding: 0;
+}
+
+.cq-cardcarousel-contentcontainer {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  align-self: center;
+  color: #FFF;
+  overflow: hidden;
+  font-size: .7rem;
+  line-height: 150%;
+  overflow-y: scroll;
+}
+.cq-cardcarousel-right .cq-cardcarousel-contentcontainer {
+  padding: 10px 10px 10px 20px;
+}
+.cq-cardcarousel-img {
+  width: 80px;
+}
+.cq-cardcarousel-link {
+  justify-self: center;
+  align-self: center;
+}
+
+.cq-cardcarousel-list > .cq-cardcarousel-item {
+  display: grid;
+  position: absolute;
+  background-color: #AAB2BD;
+  border-radius: 8px;
+  align-content: center;
+  width: 88%;
+  left: 50%;
+  top: calc(50% - 40px);
+  --rotateX: calc(1deg * var(--rotateDegrees) * calc(var(--day_idx) - var(--currentCard)));
+  transform: rotateX(var(--rotateX)) translateZ(160px) translateX(-50%) scale(var(--scale, .9));
+  transition: transform 500ms ease;
+}
+.cq-cardcarousel-shape-rounded .cq-cardcarousel-item {
+  border-radius: 8px;
+}
+.cq-cardcarousel-shape-square .cq-cardcarousel-item {
+  border-radius: 0;
+}
+
+.cq-cardcarousel-40 .cq-cardcarousel-left.cq-cardcarousel-item{
+  grid-template-columns: 60px auto;
+}
+.cq-cardcarousel-60 .cq-cardcarousel-left.cq-cardcarousel-item{
+  grid-template-columns: 80px auto;
+}
+.cq-cardcarousel-80 .cq-cardcarousel-left.cq-cardcarousel-item{
+  grid-template-columns: 100px auto;
+}
+.cq-cardcarousel-100 .cq-cardcarousel-left.cq-cardcarousel-item{
+  grid-template-columns: 120px auto;
+}
+.cq-cardcarousel-120 .cq-cardcarousel-left.cq-cardcarousel-item{
+  grid-template-columns: 140px auto;
+}
+
+.cq-cardcarousel-40 .cq-cardcarousel-right.cq-cardcarousel-item{
+  grid-template-columns: auto 60px;
+}
+.cq-cardcarousel-60 .cq-cardcarousel-right.cq-cardcarousel-item{
+  grid-template-columns: auto 80px;
+}
+.cq-cardcarousel-80 .cq-cardcarousel-right.cq-cardcarousel-item{
+  grid-template-columns: auto 100px;
+}
+.cq-cardcarousel-100 .cq-cardcarousel-right.cq-cardcarousel-item{
+  grid-template-columns: auto 120px;
+}
+.cq-cardcarousel-120 .cq-cardcarousel-right.cq-cardcarousel-item{
+  grid-template-columns: auto 140px;
+}
+.cq-cardcarousel-type-none.cq-cardcarousel-right.cq-cardcarousel-item{
+  grid-template-columns: auto;
+}
+.cq-cardcarousel-type-none.cq-cardcarousel-left.cq-cardcarousel-item{
+  grid-template-columns: auto;
+}
+
+.cq-cardcarousel .cq-cardcarousel-title {
+  display: inline-block;
+  width: 100%;
+  line-height: 150%;
+  font-size: .9rem;
+}
+.cq-cardcarousel .cq-cardcarousel-caption {
+  display: inline-block;
+  width: 100%;
+  line-height: 150%;
+  font-size: .7rem;
+}
+
+
+.cq-cardcarousel-40 .cq-cardcarousel-item {
+  top: calc(50% - 40px);
+}
+.cq-cardcarousel-60 .cq-cardcarousel-item {
+  top: calc(50% - 60px);
+}
+.cq-cardcarousel-80 .cq-cardcarousel-item {
+  top: calc(50% - 80px);
+}
+.cq-cardcarousel-100 .cq-cardcarousel-item {
+  top: calc(50% - 100px);
+}
+.cq-cardcarousel-120 .cq-cardcarousel-item {
+  top: calc(50% - 120px);
+}
+
+.cq-cardcarousel-gap-140 .cq-cardcarousel-list > .cq-cardcarousel-item {
+  transform: rotateX(var(--rotateX)) translateZ(140px) translateX(-50%) scale(var(--scale, .9));
+}
+.cq-cardcarousel-gap-160 .cq-cardcarousel-list > .cq-cardcarousel-item {
+  transform: rotateX(var(--rotateX)) translateZ(160px) translateX(-50%) scale(var(--scale, .9));
+}
+.cq-cardcarousel-gap-180 .cq-cardcarousel-list > .cq-cardcarousel-item {
+  transform: rotateX(var(--rotateX)) translateZ(180px) translateX(-50%) scale(var(--scale, .9));
+}
+.cq-cardcarousel-gap-200 .cq-cardcarousel-list > .cq-cardcarousel-item {
+  transform: rotateX(var(--rotateX)) translateZ(200px) translateX(-50%) scale(var(--scale, .9));
+}
+
+.cq-cardcarousel-item.cq-cardcarousel-item-lavender {
+  background-color: #967ADC;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-grapefruit {
+  background-color: #DA4453;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-bittersweet {
+  background-color: #E9573F;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-sunflower {
+  background-color: #F6BB42;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-grass {
+  background-color: #8CC152;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-mint {
+  background-color: #48CFAD;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-aqua {
+  background-color: #3BAFDA;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-bluejeans {
+  background-color: #4A89DC;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-pinkrose {
+  background-color: #D770AD;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-lightgray {
+  background-color: #F5F7FA;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-lightgray .cq-cardcarousel-title, .cq-cardcarousel-item.cq-cardcarousel-item-lightgray .cq-cardcarousel-caption {
+  color: #666;
+}
+
+.cq-cardcarousel-item.cq-cardcarousel-item-mediumgray {
+  background-color: #AAB2BD;
+}
+.cq-cardcarousel-item.cq-cardcarousel-item-darkgray {
+  background-color: #434A54;
+}
+
+
+.cq-cardcarousel-list > .cq-cardcarousel-item.active {
+  --scale: 1;
+}
+
+.cq-cardcarousel-navigation {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+.cq-cardcarousel-btn-left .cq-cardcarousel-navigation {
+  left: -2rem;
+}
+.cq-cardcarousel-btn-right .cq-cardcarousel-navigation {
+  right: 2rem;
+}
+.cq-cardcarousel-btn-medium.cq-cardcarousel-btn-left .cq-cardcarousel-navigation{
+  left: -2.4rem;
+}
+.cq-cardcarousel-btn-medium.cq-cardcarousel-btn-right .cq-cardcarousel-navigation{
+  right: 2.4rem;
+}
+.cq-cardcarousel-btn-large.cq-cardcarousel-btn-left .cq-cardcarousel-navigation{
+  left: -2.8rem;
+}
+.cq-cardcarousel-btn-large.cq-cardcarousel-btn-right .cq-cardcarousel-navigation{
+  right: 2.8rem;
+}
+
+
+@media screen and (max-width: 640px) {
+  .cq-cardcarousel-btn-left .cq-cardcarousel-navigation {
+    left: 100%;
+  }
+  .cq-cardcarousel-btn-medium.cq-cardcarousel-btn-left .cq-cardcarousel-navigation, .cq-cardcarousel-btn-large.cq-cardcarousel-btn-left .cq-cardcarousel-navigation {
+    left: 100%;
+  }
+
+}
+
+.cq-cardcarousel-navigation .cq-cardcarousel-btn {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  aspect-ratio: 1;
+  color: white;
+  border: none;
+  background: #4A89DC;
+  display: grid;
+  place-items: center;
+}
+.cq-cardcarousel-btn-small .cq-cardcarousel-btn{
+  width: 1.6rem;
+  height: 1.6rem;
+  font-size: 0.8rem;
+}
+.cq-cardcarousel-btn-medium .cq-cardcarousel-btn{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+.cq-cardcarousel-btn-large .cq-cardcarousel-btn{
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.2rem;
+}
+
+.cq-cardcarousel-btn-square .cq-cardcarousel-btn{
+  border-radius: 0;
+}
+.cq-cardcarousel-btn-rounded .cq-cardcarousel-btn{
+  border-radius: 4px;
+}
+.cq-cardcarousel-btn-circle .cq-cardcarousel-btn{
+  border-radius: 50%;
+}
+
+.cq-cardcarousel-navigation .cq-cardcarousel-btn:hover, .cq-cardcarousel-navigation .cq-cardcarousel-btn:focus {
+  background-color: #222F46;
+}
+

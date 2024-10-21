@@ -1,0 +1,178 @@
+Version 1.5.1
+	Added:
+		- WP 6.5.5 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+	Removed:
+		- Elegro Crypto Payment plugin
+
+Version 1.5.0.1
+	Fixed:
+		- CSS styles
+
+Version 1.5.0
+	Added:
+		- WP 6.4.3 compatibility
+		- QuickCal plugin
+		- Compatibility with The GDPR Framework plugin
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+	Removed:
+		- Booked Appointments plugin
+
+Version 1.4.6
+	Added:
+		- WP 6.4.1 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+Version 1.4.5
+	Added:
+		- WP 6.3.1 compatibility
+		- TikTok & Twitter (x) icons
+		- Compatibility with QuickCal plugin
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+Version 1.4.4
+	Added:
+		- WP 6.2 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+Version 1.4.3
+	Fixed:
+		- Import Essential Grid 3.0.17+ plugin
+		- Update plugins to their latest versions
+
+Version 1.4.2
+	Added:
+		- WP 6.1.1 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+Version 1.4.1.1
+	Fixed:
+		- ThemeREX Addons - Elementor widgets Icons
+		
+Version 1.4.1
+	Added:
+		- Compatibility with PHP 8
+		- Compatibility with WP 5.9.3
+
+	Fixed:
+		- Update plugins to their latest versions
+		- Update theme styles
+
+	Changed:
+		- Update demo data
+
+Version 1.4.0
+    Added:
+    - Compatibility with PHP 8
+    - Compatibility with Elementor Page Builder
+    - Support for Image Hotspot by DevVN
+    - Elementor Home Page
+
+    Fixed:
+    - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+Version 1.3.2
+    Fixed:
+    - Update plugins to their latest versions
+    - Compatibility with WP 5.5.1
+
+Version  1.3.1
+        Added:
+         - Home-covid-19
+
+Version 1.3
+    	Added:
+    	    - Compatibility with WP 5.3
+    		- Compatibility with ThemeREX Updater
+            - Compatibility  with elegro Crypto Payment
+            - Home4, Home5 pages
+
+        Fixed:
+            - Update plugins to their latest versions
+
+        Changed:
+    		- Update demo data
+
+Version 1.2.3
+    	Added:
+    		- Compatibility with WP 5.2.3
+    		- Compatibility with PHP 7.3.3
+
+        Fixed:
+            - Update plugins to their latest versions
+
+        Changed:
+    		- Update demo data
+
+Version 1.2.2
+    Fixed:
+    - Update plugins to their latest versions
+    - Compatibility with PHP 7.3
+
+Version 1.2.1
+	Added:
+	- Use {Y} or {{Y}} in Layouts post to show current year
+	Fixed:
+	- Menu style (hide dots)
+	- Update JS libraries
+	- Update plugins
+	- Compatibility with WordPress Version 5.0+
+
+Version 1.2.0
+	Added:
+	- Compatibility with Contact Form 7
+	- Compatibility with WP GDPR Compliance plugin
+	Fixed:
+	- Update plugins to their latest versions
+	Changed:
+    - Update default contact forms to make them GDPR-compliant
+
+Version 1.1.0
+    WordPress Version 4.9.4 ready
+    Compatibility with PHP 7.1.x
+    Updated Booked to its latest version
+    Updated WPBakery Page Builder Extensions All In One to its latest version
+    Updated Revolution Slider to its latest version
+    Updated WPBakery Page Builder to its latest version
+    Updated Essential Grid to its latest version
+    Updated ThemeREX Donations to its latest version
+    Updated demo data
+    Fixed shortcode WPBakery Page Builder in PHP 7.1.x
+    Fixed WooCommerce 3.3.x
+    Fixed Imports
+    Added new CSS styles
+
+Version 1.0
+    Release
