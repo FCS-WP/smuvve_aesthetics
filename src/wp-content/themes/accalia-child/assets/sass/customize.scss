@@ -1,0 +1,58 @@
+.list-hello-there{
+    .sc_icons_item{
+      display: flex;
+      align-items: center;
+
+      .sc_icons_icon{
+          &::before{
+            font-size: 3rem;
+          }
+      }
+      .sc_icons_item_title{
+         margin-top: 0;
+         margin-left: 1rem;
+         text-transform: unset;
+         color: black !important;
+      }
+    }
+}
+.services-sections{
+    .sc_services_columns_wrap{
+        .sc_services_item{
+            .post_featured{
+                img{
+                    border-radius: 10px;
+                }
+            }
+            .sc_services_item_info{
+                text-align: left;
+                margin: 0 20px;
+                .sc_services_item_title{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+.footer_wrap.footer_custom{
+    text-align: start;
+}
+header.scheme_default {
+	.sc_layouts_menu_nav {
+		>li.current-menu-item {
+			>a {
+				color:#c89204 !important;
+			}
+		}
+		>li.current-menu-parent {
+			>a {
+				color:#c89204 !important;
+			}
+		}
+		>li.current-menu-ancestor {
+			>a {
+				color:#c89204 !important;
+			}
+		}
+	}
+}
