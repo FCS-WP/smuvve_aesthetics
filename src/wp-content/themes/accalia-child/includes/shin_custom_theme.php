@@ -1,6 +1,10 @@
 <?php
 add_action( 'template_redirect', 'custom_redirect_urls' );
 function custom_redirect_urls() {
+    if ( is_admin()) {
+        return;
+    }
+
     $redirect_urls = array(
         '/services' => '/our-services',
     );
